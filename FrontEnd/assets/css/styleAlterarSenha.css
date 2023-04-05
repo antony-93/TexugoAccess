@@ -1,0 +1,68 @@
+body {
+    background-color: #333842;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+.area-alterarSenha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+.alterarSenha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #181920;
+    border-radius: 10px;
+    width: 355px;
+    height: 320px;
+    padding: 35px;
+}
+
+.alterarSenha form {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.alterarSenha input {
+    margin-top: 0.5rem;
+    background-color: #252a34;
+    color: #CBD0F7;
+    padding-left: 10px;
+    border: none;
+    height: 45px;
+    outline: none;
+    border-radius: 8px;
+}
+
+.alterarSenha img {
+    margin-top: -0.5rem;
+    width: 350px;
+    height: auto;
+}
+
+#confirmeSenha{
+    margin-top: 1rem;
+}
+
+input::placeholder {
+    color: #CBD0F7;
+    font-size: 14px;
+}
+
+form [type="submit"] {
+    display: block;
+    background-color: #5568fe;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 1.5rem;
+}
+
+
+

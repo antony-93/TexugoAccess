@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/styleHub.css">
+    <script src="js/jquery/jquery-3.6.3.js"></script>
+    <title>Hub</title>
+</head>
+
+<body>
+    <div class="Area-hub">
+        <div class="Hub">
+
+            <div>
+                <img src="assets/image/v2/Texugo_party3.png">
+            </div>
+
+            <div>
+                <h1>Você Entrou!</h1>
+            </div>
+        </div>
+    </div>
+    <script>
+        console.log(localStorage.getItem('isAuthenticated'));
+        if (localStorage.getItem('isAuthenticated') !== 'true') {
+
+            localStorage.setItem('isAuthenticated', false);
+            window.location.href = 'Login.html';
+        }
+
+        window.addEventListener('beforeunload', function (event) {
+            localStorage.setItem('isAuthenticated', false);
+        });
+
+    </script>
+</body>
+
+</html>

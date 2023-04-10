@@ -1,4 +1,4 @@
-package br.com.TexugoAccess.BackEnd;
+package br.com.TexugoAccess.api;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

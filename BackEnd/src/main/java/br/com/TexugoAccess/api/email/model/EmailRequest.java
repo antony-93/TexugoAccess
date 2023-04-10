@@ -1,32 +1,32 @@
-package br.com.TexugoAccess.BackEnd.email.model;
+package br.com.TexugoAccess.api.email.model;
 
-//Define as variaveis necessarias para enviar um email
-public class Email {
+public class EmailRequest {
     private String to;
     private String subject;
     private String text;
-    
+
     public String getTo() {
         return to;
     }
+
     public void setTo(String to) {
         this.to = to;
     }
+
     public String getSubject() {
         return subject;
     }
+
     public void setSubject(String subject) {
         this.subject = subject;
     }
+
     public String getText() {
         return text;
     }
+
     public void setText(String text) {
         this.text = text;
     }
 
-
 }
-
-
-

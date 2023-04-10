@@ -2,13 +2,10 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Spring Boot-TexugoAccessApplication<BackEnd>",
+            "name": "TexugoAccessApplication",
             "request": "launch",
-            "cwd": "${workspaceFolder}",
-            "mainClass": "br.com.TexugoAccess.BackEnd.TexugoAccessApplication",
-            "projectName": "BackEnd",
-            "args": "",
-            "envFile": "${workspaceFolder}/.env"
+            "mainClass": "br.com.TexugoAccess.api.TexugoAccessApplication",
+            "projectName": "BackEnd"
         }
     ]
 }

@@ -1,4 +1,4 @@
-package br.com.TexugoAccess.BackEnd;
+package br.com.TexugoAccess.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

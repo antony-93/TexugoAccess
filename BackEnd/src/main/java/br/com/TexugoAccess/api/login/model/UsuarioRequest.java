@@ -1,33 +1,15 @@
-package br.com.TexugoAccess.BackEnd.login.model;
-
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-
-@AllArgsConstructor
-@NoArgsConstructor
-@Data
-@Entity
+package br.com.TexugoAccess.api.login.model;
 
 //Define as variaveis necessarias para realizar CRUD no banco
-public class Usuario {
+public class UsuarioRequest {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-    
     private String email;
     private String nome;
     private String telefone;
     private String genero;
     private String data_cadastro;
     private String senha;
-    private boolean verificado;
+    private Boolean verificado;
 
   public String getNome() {
     return nome;
@@ -37,7 +19,7 @@ public class Usuario {
     return email;
   }
 
-  public String genero() {
+  public String getGenero() {
     return genero;
   }
 
@@ -53,7 +35,7 @@ public class Usuario {
     return senha;
   }
 
-  public boolean getVerificado() {
+  public Boolean getVerificado() {
     return verificado;
   }
 

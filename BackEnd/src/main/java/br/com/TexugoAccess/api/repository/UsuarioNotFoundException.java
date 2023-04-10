@@ -1,4 +1,4 @@
-package br.com.TexugoAccess.BackEnd;
+package br.com.TexugoAccess.api.repository;
 
 public class UsuarioNotFoundException extends RuntimeException {
     public UsuarioNotFoundException(String message) {
